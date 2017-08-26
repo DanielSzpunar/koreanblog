@@ -5,6 +5,16 @@
  * Credit left inline and big thanks to Nicolas Gallagher, Jonathan Neal,
  * Kroc Camen, and the H5BP dev community and team.
  */
+/* ==========================================================================
+   Font and Icons:
+   ========================================================================== <link href="https://fonts.googleapis.com/css?family=Open+Sans|PT+Sans" rel="stylesheet">
+
+   font-family: 'Open Sans', sans-serif;
+   font-family: 'PT Sans', sans-serif;
+   'PT Sans' used for headers
+   'Open Sans' used for p
+
+   */
 
 /* ==========================================================================
    Base styles: opinionated defaults
@@ -96,6 +106,51 @@ textarea {
 /* ==========================================================================
    Author's custom styles
    ========================================================================== */
+html {
+    box-sizing: border-box;
+}
+
+*,
+*:before,
+*:after {
+    box-sizing: inherit;
+}
+
+body {
+    margin: 0;
+}
+header {
+    background: red;
+}
+.nav-display {
+    font-size: 0;
+    text-align: center;
+}
+.nav-display a {
+    display:inline-block;
+    text-decoration:none;
+    padding: 8px;
+    color:#000;
+    font-family: 'Open Sans';
+    font-variant: small-caps;
+    font-size: 1rem;
+}
+.h1-header {
+    text-align:center;
+    font-family: 'PT Sans';
+    font-size:2rem;
+    letter-spacing: 4px;
+    font-weight:lighter;
+    text-transform:capitalize;
+    font-variant:small-caps;
+    margin: 0;
+    padding-top:1rem;
+}
+.header-img{
+    background: linear-gradient(rgba(141, 153, 174, 0.8), rgba(141, 153, 174, 0.5)), url(/img/articleImg.jpg) no-repeat fixed;
+    background-size: cover;
+    height:200px;
+}
 
 
 
@@ -288,3 +343,5 @@ textarea {
         page-break-after: avoid;
     }
 }
+
+
