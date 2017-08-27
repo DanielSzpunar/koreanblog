@@ -7,12 +7,14 @@
  */
 /* ==========================================================================
    Font and Icons:
-   ========================================================================== <link href="https://fonts.googleapis.com/css?family=Open+Sans|PT+Sans" rel="stylesheet">
-
-   font-family: 'Open Sans', sans-serif;
-   font-family: 'PT Sans', sans-serif;
-   'PT Sans' used for headers
+   ==========================================================================
+   'Roboto' used for headers
    'Open Sans' used for p
+
+   <link href="https://fonts.googleapis.com/css?family=Open+Sans:300|Roboto" rel="stylesheet">
+
+   font-family: 'Roboto', sans-serif;
+    font-family: 'Open Sans', sans-serif;
 
    */
 
@@ -133,18 +135,18 @@ header {
     color:#000;
     font-family: 'Open Sans';
     font-variant: small-caps;
-    font-size: 1rem;
+    font-size: 1.25rem;
 }
 .h1-header {
     text-align:center;
-    font-family: 'PT Sans';
-    font-size:2rem;
+    font-family:'Open Sans', sans-serif;;
+    font-size:2.5rem;
     letter-spacing: 4px;
-    font-weight:lighter;
     text-transform:capitalize;
     font-variant:small-caps;
     margin: 0;
     padding-top:1rem;
+    font-weight:lighter;
 }
 .header-img{
     background: linear-gradient(rgba(141, 153, 174, 0.8), rgba(141, 153, 174, 0.5)), url(../img/articleImg.jpg) no-repeat fixed;
@@ -163,12 +165,24 @@ header {
 }
 .article-h2 {
     text-align: center;
-    font-family:'PT Sans', sans-serif ;
+    font-family:'Open Sans', sans-serif;
+}
+.travel-h2 {
+    text-align:center;
+    font-family:'Open Sans', sans-serif;
+    letter-spacing:2px;
+    font-weight:lighter;
+    letter-spacing: 7px;
+
 }
 .content-wrap p {
     text-align: center;
     font-family:'Open Sans';
     font-size:0.75rem;
+}
+.travel-img {
+    background: linear-gradient(rgba(141, 153, 174, 0.8), rgba(141, 153, 174, 0.5)),  no-repeat fixed;
+    height:135px;
 }
 
 
