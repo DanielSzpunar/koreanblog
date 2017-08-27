@@ -147,10 +147,32 @@ header {
     padding-top:1rem;
 }
 .header-img{
-    background: linear-gradient(rgba(141, 153, 174, 0.8), rgba(141, 153, 174, 0.5)), url(/img/articleImg.jpg) no-repeat fixed;
+    background: linear-gradient(rgba(141, 153, 174, 0.8), rgba(141, 153, 174, 0.5)), url(../img/articleImg.jpg) no-repeat fixed;
     background-size: cover;
     height:200px;
 }
+.content-wrap {
+    max-width: 700px;
+    margin: 0 auto;
+    padding: 30px;
+    overflow: hidden;
+}
+
+.article-img {
+    width:100%;
+}
+.article-h2 {
+    text-align: center;
+    font-family:'PT Sans', sans-serif ;
+}
+.content-wrap p {
+    text-align: center;
+    font-family:'Open Sans';
+    font-size:0.75rem;
+}
+
+
+
 
 
 
